@@ -1,0 +1,159 @@
+ * {
+    font-family: "Abril Fatface", serif;
+ }
+
+ /* header section start */
+ .navbar .nav-item .nav-link {
+    font-size: 15px;
+ }
+
+ .navbar .nav-item .nav-link:hover {
+    text-decoration: 4px underline orangered;
+ }
+
+ .animation img {
+    width: 500px;
+    position: absolute;
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    transition: all .7s;
+ }
+
+ @keyframes updown {
+    0% {
+       transform: translateY(0px);
+
+    }
+
+    50% {
+       transform: translateY(-40px);
+
+    }
+
+    100% {
+       transform: translateY(0px);
+
+    }
+ }
+
+ /*  header section end */
+
+ /* main section start */
+ .main {
+    margin-top: 400px;
+
+ }
+
+ .row .card {
+    border: none;
+ }
+
+ .row .highlight {
+    box-shadow: 10px 10px 10px 10px rgb(183, 180, 187);
+    animation-name: updown;
+    animation-duration: 29s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+ }
+
+ @keyframes updown {
+    0% {
+       transform: translateY(0px);
+
+    }
+
+    50% {
+       transform: translateY(-40px);
+
+    }
+
+    100% {
+       transform: translateY(0px);
+
+    }
+ }
+
+ .row .card:hover {
+    box-shadow: 10px 10px 10px 10px rgb(226, 231, 174);
+    transform: scale(1.2);
+
+ }
+
+ .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90px;
+ }
+
+ .content h1 {
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+ }
+
+ .col-md-4 h1 {
+    font-size: 65px;
+ }
+
+ .col-md-4 h1 i {
+    font-size: 85px;
+ }
+
+ .col-md-4 h5 {
+    font-size: 25px;
+ }
+
+ /* "Handle customer Back office "Start" "  */
+ .col-md-4 .sales {
+    background-image: linear-gradient(to right, rgb(234, 45, 45), rgb(107, 3, 3));
+    padding: 16px;
+    color: white;
+ }
+
+ .col-md-4 .text-decoration-none :hover {
+    background-image: linear-gradient(to right, rgb(234, 45, 45), rgb(107, 3, 3));
+    padding: 16px;
+    color: white;
+ }
+
+ .col-md-3 .image {
+    background-color: rgb(194, 194, 248);
+    padding: 6px;
+    border-radius: 100px;
+ }
+
+ /* "Handle customer Back office "End" "  */
+ 
+ /* contact css start */
+ .col-md-6 .sales {
+    background-image: linear-gradient(to right, rgb(234, 45, 45), rgb(39, 6, 92));
+    padding: 16px;
+    color: white;
+    text-align: center;
+ }
+
+ .contact {
+    box-shadow: 0px 0px 10px 10px rgb(209, 216, 240);
+
+ }
+
+ /* different icons.png  */
+ .float-end img {
+    margin-left: 15px;
+ }
+
+ /* contact css end */
+
+ /* main section end */
+ /* footer section start */
+ .footer {
+    background-image: linear-gradient(to right, rgb(189, 231, 233), rgb(238, 204, 235));
+    padding-top: 60px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+ }
+
+ /* footer section end */
